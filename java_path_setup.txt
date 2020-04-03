@@ -1,0 +1,19 @@
+download oraclejdk1.8 in /opt--> amazon linux_Linux *86 compressed archive 186MB
+-------------------------------------------------------------
+jdk-8u201-linux-64.tar.gz
+tar xvzf jdk-8u-241-linux-64.tar.gz 
+
+--> cd jdk1.8.0_241 ==(change to java folder)
+alternatives --install /usr/bin/java java /opt/jdk1.8.0_241/bin/java 2
+alternatives --config java
+alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_241/bin/jar 2
+alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_241/bin/javac 2
+alternatives --set jar /opt/jdk1.8.0_241/bin/jar
+alternatives --set javac /opt/jdk1.8.0_241/bin/javac
+yum -y install glibc.i686
+
+java -version
+
+export JAVA_HOME=/opt/jdk1.8.0_241
+export JRE_HOME=/opt/jdk1.8.0_241/jre
+export PATH=$PATH:/opt/jdk1.8.0_241/bin:/opt/jdk1.8.0_241/jre/bin
