@@ -1,10 +1,15 @@
 maven plugin path in jenkins server
 
+
+----------------------------------
 nano /etc/profile.d/maven.sh
 export M2_HOME=/opt/maven
 export PATH=${M2_HOME}/bin:$PATH
-
+--------------------------------
 source /etc/profile.d/maven.sh
+-------------------------------
+
+
 
 ln -s apache-maven-3.6.3 maven 
             ----> creating a link for apache-maven-3.6.3 as maven
