@@ -1,4 +1,4 @@
-download oraclejdk1.8 in /opt--> amazon linux_Linux *86 compressed archive 186MB
+download oraclejdk1.8(amazon linux_Linux_x86_64 compressed archive 186MB) in /opt
 -------------------------------------------------------------
 jdk-8u201-linux-64.tar.gz
 tar xvzf jdk-8u-241-linux-64.tar.gz 
@@ -17,3 +17,6 @@ java -version
 export JAVA_HOME=/opt/jdk1.8.0_241
 export JRE_HOME=/opt/jdk1.8.0_241/jre
 export PATH=$PATH:/opt/jdk1.8.0_241/bin:/opt/jdk1.8.0_241/jre/bin
+=======================================================
+
+path is for version jdk1.8.0_241
