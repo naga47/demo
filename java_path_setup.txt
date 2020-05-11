@@ -19,4 +19,4 @@ export JRE_HOME=/opt/jdk1.8.0_241/jre
 export PATH=$PATH:/opt/jdk1.8.0_241/bin:/opt/jdk1.8.0_241/jre/bin
 =======================================================
 
-path is for version jdk1.8.0_241
+path for version jdk1.8.0_241
