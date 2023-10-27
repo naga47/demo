@@ -1,3 +1,3 @@
-# Sample Code
+## Sample Code
 # azure bicep
 # linux scripts
